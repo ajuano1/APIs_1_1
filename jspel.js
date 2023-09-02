@@ -1,8 +1,9 @@
-const apiKey = 'TU_API_KEY_AQUÍ';
+const apiKey = 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDFjNmY0MDQ2ZTdkMGJkMzQyYWNmNTc4ZDkyMTE1YSIsInN1YiI6IjY0ZWE4YzM2YzVjMWVmMDBjNjUyNDU4NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ymDz_QsSwPzk__IT3LfkUqWrAurVxgUb2NxMxXoPxtI';
 const apiUrl = 'https://api.themoviedb.org/3/tv/popular?language=en-US&page=1';
 const language = 'es';
 
-// Función para obtener la lista de géneros
+
+//// Función para obtener la lista de géneros
 async function getGenres() {
     try {
         const response = await fetch(`${apiUrl}/genre/movie/list?language=${language}&api_key=${apiKey}`);
