@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie p {
+    font-size: 14px;
+}
